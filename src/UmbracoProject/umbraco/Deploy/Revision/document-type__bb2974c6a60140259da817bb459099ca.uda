@@ -15,6 +15,7 @@
     {
       "Key": "a3ea6fa2-1122-419d-a1e8-294acaf13e5c",
       "Name": "Settings",
+      "SortOrder": 10,
       "Type": 1,
       "Alias": "settings",
       "PropertyTypes": []
