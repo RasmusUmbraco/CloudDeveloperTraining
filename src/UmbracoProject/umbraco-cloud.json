@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "training baseline v15",
+      "Alias": "training-baseline-v15",
+      "Id": "9034105c-b6f5-4a7d-b773-3bb531edead0",
+      "Workspaces": [
+        {
+          "Id": "2f981925-3a5f-44d3-b8b3-419de6d82f88",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://training-baseline-v15.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
