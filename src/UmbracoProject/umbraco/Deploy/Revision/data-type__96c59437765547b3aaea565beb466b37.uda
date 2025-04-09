@@ -1,0 +1,13 @@
+{
+  "Name": "Products - Featured product - Content Picker Property Editor UI",
+  "EditorAlias": "Umbraco.MultiNodeTreePicker",
+  "EditorUiAlias": "Umb.PropertyEditorUi.ContentPicker",
+  "Configuration": {
+    "minNumber": 0,
+    "maxNumber": 0
+  },
+  "Udi": "umb://data-type/96c59437765547b3aaea565beb466b37",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "15.1.0"
+}
