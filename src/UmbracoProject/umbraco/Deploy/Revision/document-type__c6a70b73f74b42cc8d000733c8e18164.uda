@@ -3,7 +3,7 @@
   "Alias": "umbBlockGridDemoHeadlineBlock",
   "AllowedTemplates": [],
   "HistoryCleanup": {},
-  "Icon": "icon-plugin",
+  "Icon": "icon-italic",
   "Thumbnail": "folder.png",
   "Permissions": {
     "IsElementType": true,
