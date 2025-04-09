@@ -22,6 +22,7 @@
     {
       "Key": "eacd413d-6432-4f2e-87af-a704b1da490c",
       "Name": "Banner (bottom of the page)",
+      "SortOrder": 90,
       "Alias": "fields/banner(bottomOfThePage)",
       "PropertyTypes": [
         {
