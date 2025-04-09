@@ -10,14 +10,26 @@
   "Thumbnail": "folder.png",
   "Description": "Documentation articles.",
   "Permissions": {
-    "AllowedChildContentTypes": []
+    "AllowedChildContentTypes": [
+      "umb://document-type/483d9776f80b4ac5959deb61d45d949b"
+    ]
   },
-  "CompositionContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/1e49f665578a45418762ea2a69f90dcc",
+    "umb://document-type/bb2974c6a60140259da817bb459099ca"
+  ],
   "PropertyGroups": [
+    {
+      "Key": "a07077ab-3a8a-4462-aa58-fe5e3ff4f8f7",
+      "Name": "Fields",
+      "Type": 1,
+      "Alias": "fields",
+      "PropertyTypes": []
+    },
     {
       "Key": "b283274a-acd9-48de-8245-99c2f98ffe37",
       "Name": "Content",
-      "Alias": "content",
+      "Alias": "fields/content",
       "PropertyTypes": [
         {
           "Key": "00396a31-e8d8-48e4-86b7-59e687c7ccbb",
@@ -44,6 +56,18 @@
     },
     {
       "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type/1e49f665578a45418762ea2a69f90dcc",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type/483d9776f80b4ac5959deb61d45d949b",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://document-type/bb2974c6a60140259da817bb459099ca",
       "Ordering": true
     },
     {
