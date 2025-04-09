@@ -10,7 +10,9 @@
   "Thumbnail": "folder.png",
   "Description": "A generic page type with RTE.",
   "Permissions": {
-    "AllowedChildContentTypes": []
+    "AllowedChildContentTypes": [
+      "umb://document-type/ff74556a73554a8b83cb42dd341a8ca7"
+    ]
   },
   "CompositionContentTypes": [
     "umb://document-type/1e49f665578a45418762ea2a69f90dcc",
@@ -53,6 +55,10 @@
     {
       "Udi": "umb://document-type/bb2974c6a60140259da817bb459099ca",
       "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type/ff74556a73554a8b83cb42dd341a8ca7",
+      "Mode": "Exist"
     },
     {
       "Udi": "umb://template/32baf97c3fdb4b96b8fac82c923fd117",
