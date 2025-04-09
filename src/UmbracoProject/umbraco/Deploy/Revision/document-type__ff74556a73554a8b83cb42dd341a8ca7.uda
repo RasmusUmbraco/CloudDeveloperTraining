@@ -23,11 +23,29 @@
       "Type": 1,
       "Alias": "fields",
       "PropertyTypes": []
+    },
+    {
+      "Key": "9dce5382-b5fb-4628-a78c-ebae9a5cc93b",
+      "Name": "Content",
+      "SortOrder": 1,
+      "Alias": "fields/content",
+      "PropertyTypes": [
+        {
+          "Key": "2f18a837-1bd2-44e3-91c6-b58cf4d02bff",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Name": "Body Text"
+        }
+      ]
     }
   ],
   "PropertyTypes": [],
   "Udi": "umb://document-type/ff74556a73554a8b83cb42dd341a8ca7",
   "Dependencies": [
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true
+    },
     {
       "Udi": "umb://document-type/1e49f665578a45418762ea2a69f90dcc",
       "Ordering": true
