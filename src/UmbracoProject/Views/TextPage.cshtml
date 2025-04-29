@@ -1,5 +1,25 @@
 ﻿@using Umbraco.Cms.Web.Common.PublishedModels;
-@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<TextPage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
 @{
-	Layout = null;
+    Layout = "BasicNav.cshtml";
 }
+<section id="single-content" class="bg-white">
+    <div class="container">
+        <div class="section-content blog-content">
+            <div class="row">
+                <div class="col-md-2 mt-4 align-self-start">
+                    <ul class="side-nav">
+                        @await Html.PartialAsync("SideNav")
+                    </ul>
+                </div>
+                <div class="col-md-8 mt-4">
+                    @Model.BodyText
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
