@@ -9,6 +9,7 @@
   "Icon": "icon-wine-glass",
   "Thumbnail": "folder.png",
   "Permissions": {
+    "AllowVaryingByCulture": true,
     "AllowedChildContentTypes": []
   },
   "CompositionContentTypes": [
@@ -25,13 +26,15 @@
           "Alias": "description",
           "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
           "Name": "Description",
-          "SortOrder": 2
+          "SortOrder": 2,
+          "VariesByCulture": true
         },
         {
           "Key": "29c56d40-d937-40ea-a1a3-1126685614db",
           "Alias": "price",
           "DataType": "umb://data-type/1405253f929f4b73972c32545fb091af",
-          "Name": "Price"
+          "Name": "Price",
+          "VariesByCulture": true
         },
         {
           "Key": "3b16086e-ad17-4a61-8f55-76c89b2a9452",
