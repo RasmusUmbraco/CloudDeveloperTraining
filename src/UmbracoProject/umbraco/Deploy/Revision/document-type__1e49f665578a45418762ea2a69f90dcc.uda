@@ -6,6 +6,7 @@
   "Icon": "icon-plugin",
   "Thumbnail": "folder.png",
   "Permissions": {
+    "AllowVaryingByCulture": true,
     "IsElementType": true,
     "AllowedChildContentTypes": []
   },
@@ -29,14 +30,16 @@
           "Key": "5d80dcf4-ffa7-420a-ba51-e01c0718d8c6",
           "Alias": "bannerHeader",
           "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
-          "Name": "Banner Header"
+          "Name": "Banner Header",
+          "VariesByCulture": true
         },
         {
           "Key": "9a946185-d342-47a4-8d21-166a8014bc44",
           "Alias": "bannerBody",
-          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
           "Name": "Banner Body",
-          "SortOrder": 1
+          "SortOrder": 1,
+          "VariesByCulture": true
         }
       ]
     }
@@ -46,6 +49,10 @@
   "Dependencies": [
     {
       "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
       "Ordering": true
     },
     {
