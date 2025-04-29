@@ -10,6 +10,7 @@
   "Thumbnail": "folder.png",
   "Description": "A Search Page. Please only use one.",
   "Permissions": {
+    "AllowVaryingByCulture": true,
     "AllowedChildContentTypes": []
   },
   "CompositionContentTypes": [

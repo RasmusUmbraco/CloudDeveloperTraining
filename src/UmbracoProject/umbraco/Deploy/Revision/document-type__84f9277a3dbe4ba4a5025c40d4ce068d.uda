@@ -10,6 +10,7 @@
   "Thumbnail": "folder.png",
   "Description": "This page will hold blog items.",
   "Permissions": {
+    "AllowVaryingByCulture": true,
     "AllowedChildContentTypes": [
       "umb://document-type/624443c7781d4228a8367405f8630ae7"
     ]

@@ -10,6 +10,7 @@
   "Thumbnail": "folder.png",
   "Description": "Generic type of page where the body is using the Block Grid editor",
   "Permissions": {
+    "AllowVaryingByCulture": true,
     "AllowedChildContentTypes": []
   },
   "CompositionContentTypes": [
@@ -33,7 +34,8 @@
           "Key": "30ca7691-b714-4977-909e-27838661df0b",
           "Alias": "bodyText",
           "DataType": "umb://data-type/90e14cb194dc4050bf006710b27ee45d",
-          "Name": "Body Text"
+          "Name": "Body Text",
+          "VariesByCulture": true
         }
       ]
     }

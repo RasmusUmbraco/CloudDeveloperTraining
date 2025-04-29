@@ -10,6 +10,7 @@
   "Thumbnail": "folder.png",
   "Description": "A container for product items.",
   "Permissions": {
+    "AllowVaryingByCulture": true,
     "AllowedChildContentTypes": [
       "umb://document-type/f746f941c89e409586668fa9154d4437"
     ]
@@ -35,7 +36,8 @@
           "Key": "55a04a0f-a218-4766-ab1f-e798c5915bbf",
           "Alias": "defaultCurrency",
           "DataType": "umb://data-type/9ae7afb1c24c45a9b8fdf8bca4e4ef96",
-          "Name": "Default Currency"
+          "Name": "Default Currency",
+          "VariesByCulture": true
         },
         {
           "Key": "f6c427f4-dd2a-4445-ab75-aaaab192b57f",
@@ -43,7 +45,8 @@
           "DataType": "umb://data-type/96c59437765547b3aaea565beb466b37",
           "Description": "Select a product to be featured on top of the page.",
           "Name": "Featured product",
-          "SortOrder": 1
+          "SortOrder": 1,
+          "VariesByCulture": true
         }
       ]
     }

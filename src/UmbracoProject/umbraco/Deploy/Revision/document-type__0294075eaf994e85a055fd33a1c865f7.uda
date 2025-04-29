@@ -9,6 +9,7 @@
   "Icon": "icon-users",
   "Thumbnail": "folder.png",
   "Permissions": {
+    "AllowVaryingByCulture": true,
     "AllowedChildContentTypes": [
       "umb://document-type/ec1db558cb70471f9c659838d3235498"
     ]

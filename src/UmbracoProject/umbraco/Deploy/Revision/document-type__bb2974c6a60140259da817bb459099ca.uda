@@ -6,6 +6,7 @@
   "Icon": "icon-plugin",
   "Thumbnail": "folder.png",
   "Permissions": {
+    "AllowVaryingByCulture": true,
     "IsElementType": true,
     "AllowedChildContentTypes": []
   },
@@ -29,7 +30,8 @@
           "Key": "28278732-663e-4c86-ad87-e493e6f3eea9",
           "Alias": "backgroundImage",
           "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
-          "Name": "Background Header "
+          "Name": "Background Header ",
+          "VariesByCulture": true
         }
       ]
     }

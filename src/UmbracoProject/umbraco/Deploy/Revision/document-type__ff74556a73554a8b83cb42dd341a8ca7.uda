@@ -10,6 +10,7 @@
   "Thumbnail": "folder.png",
   "Description": "A generic page type with RTE.",
   "Permissions": {
+    "AllowVaryingByCulture": true,
     "AllowedChildContentTypes": [
       "umb://document-type/ff74556a73554a8b83cb42dd341a8ca7"
     ]
@@ -36,7 +37,8 @@
           "Key": "2f18a837-1bd2-44e3-91c6-b58cf4d02bff",
           "Alias": "bodyText",
           "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
-          "Name": "Body Text"
+          "Name": "Body Text",
+          "VariesByCulture": true
         }
       ]
     }
