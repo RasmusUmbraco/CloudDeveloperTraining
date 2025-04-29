@@ -14,6 +14,72 @@
   "CompositionContentTypes": [],
   "PropertyGroups": [
     {
+      "Key": "1b5e11fe-0fa2-48f4-96ca-b67f569c13eb",
+      "Name": "Styling",
+      "Alias": "settings/styling",
+      "PropertyTypes": [
+        {
+          "Key": "3fdc14a5-e293-4608-849c-ab197f55e350",
+          "Alias": "colorSettingsGradientEnd",
+          "DataType": "umb://data-type/d20ceb600f9d46ce98060cff52fe80e0",
+          "Name": "Color Settings - Gradient End",
+          "SortOrder": 5
+        },
+        {
+          "Key": "489c8918-1ece-4ad5-b9d8-bc4810519e39",
+          "Alias": "companyLogos",
+          "DataType": "umb://data-type/0e63d883b62b479988c3157f82e83ecc",
+          "Description": "Use this to select partner companies icon on the scrolling bar. If empty defaults to the Umbraco logo.",
+          "Name": "Company Logos",
+          "SortOrder": 3
+        },
+        {
+          "Key": "6ad83276-a950-4325-9077-4bb0d8b2a0a2",
+          "Alias": "backgroundImage",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Description": "Main header background.",
+          "Name": "Background Image"
+        },
+        {
+          "Key": "91e6b32e-815b-4523-91d9-23fcc676cbeb",
+          "Alias": "colorSettingsAccent1",
+          "DataType": "umb://data-type/6d7529c987c8482597b8b7c06434a3e9",
+          "Name": "Color Settings - Accent 1",
+          "SortOrder": 6
+        },
+        {
+          "Key": "96fc7fd4-d74e-4dca-b648-0476bb81228f",
+          "Alias": "umbracoLogos",
+          "DataType": "umb://data-type/4309a3ea0d784329a06cc80b036af19a",
+          "Description": "Small icons on the header background. Recommended to pick 2.",
+          "Name": "Umbraco Logos",
+          "SortOrder": 1
+        },
+        {
+          "Key": "e2986ef2-ca48-4f16-a2c7-a21aef2d0a11",
+          "Alias": "colorSettingsGradientStart",
+          "DataType": "umb://data-type/6e26bb55a635478b8efdc771775693c1",
+          "Name": "Color Settings - Gradient Start",
+          "SortOrder": 4
+        },
+        {
+          "Key": "ec1cbdd5-3375-45a7-9a7d-aa36cf17f3a3",
+          "Alias": "minorFeaturesBackgroundImage",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Description": "Used as a background on the colored section separators.",
+          "Name": "Minor Features",
+          "SortOrder": 2
+        },
+        {
+          "Key": "f2878080-5c2d-4749-98b1-d27681ac7a83",
+          "Alias": "colorSettingsAccent2",
+          "DataType": "umb://data-type/feb44f4e84cf41a19b9a66db908eb6df",
+          "Name": "Color Settings - Accent 2",
+          "SortOrder": 7
+        }
+      ]
+    },
+    {
       "Key": "45077dcc-67d9-460f-b294-a5e8dec6b0c3",
       "Name": "Products spotlight",
       "SortOrder": 1,
@@ -122,6 +188,14 @@
           "Name": "Your Name"
         }
       ]
+    },
+    {
+      "Key": "e859779f-df83-40da-bf5f-51836e345de1",
+      "Name": "Settings",
+      "SortOrder": 2,
+      "Type": 1,
+      "Alias": "settings",
+      "PropertyTypes": []
     }
   ],
   "PropertyTypes": [],
@@ -132,7 +206,23 @@
       "Ordering": true
     },
     {
+      "Udi": "umb://data-type/0e63d883b62b479988c3157f82e83ecc",
+      "Ordering": true
+    },
+    {
       "Udi": "umb://data-type/1254a66b3a404e539299e5c3e0482811",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/4309a3ea0d784329a06cc80b036af19a",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/6d7529c987c8482597b8b7c06434a3e9",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/6e26bb55a635478b8efdc771775693c1",
       "Ordering": true
     },
     {
@@ -140,7 +230,15 @@
       "Ordering": true
     },
     {
+      "Udi": "umb://data-type/d20ceb600f9d46ce98060cff52fe80e0",
+      "Ordering": true
+    },
+    {
       "Udi": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/feb44f4e84cf41a19b9a66db908eb6df",
       "Ordering": true
     },
     {
