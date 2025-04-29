@@ -9,7 +9,16 @@
   "Icon": "icon-home",
   "Thumbnail": "folder.png",
   "Permissions": {
-    "AllowedChildContentTypes": []
+    "AllowedAtRoot": true,
+    "AllowedChildContentTypes": [
+      "umb://document-type/ff74556a73554a8b83cb42dd341a8ca7",
+      "umb://document-type/84f9277a3dbe4ba4a5025c40d4ce068d",
+      "umb://document-type/d861b2f7cade4051a7f9dc7f528b5811",
+      "umb://document-type/29e5e38e4bac4a54bfe9bc5fe44b2169",
+      "umb://document-type/0294075eaf994e85a055fd33a1c865f7",
+      "umb://document-type/483d9776f80b4ac5959deb61d45d949b",
+      "umb://document-type/a179a6d70aa947458ab5c2b4c5a2fc48"
+    ]
   },
   "CompositionContentTypes": [],
   "PropertyGroups": [
@@ -240,6 +249,34 @@
     {
       "Udi": "umb://data-type/feb44f4e84cf41a19b9a66db908eb6df",
       "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type/0294075eaf994e85a055fd33a1c865f7",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://document-type/29e5e38e4bac4a54bfe9bc5fe44b2169",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://document-type/483d9776f80b4ac5959deb61d45d949b",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://document-type/84f9277a3dbe4ba4a5025c40d4ce068d",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://document-type/a179a6d70aa947458ab5c2b4c5a2fc48",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://document-type/d861b2f7cade4051a7f9dc7f528b5811",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://document-type/ff74556a73554a8b83cb42dd341a8ca7",
+      "Mode": "Exist"
     },
     {
       "Udi": "umb://template/b0ee83792ab84f4f8b0bd3a1fb92cda5",
