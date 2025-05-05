@@ -1,0 +1,28 @@
+{
+  "Name": "Login",
+  "Alias": "login",
+  "DefaultTemplate": "umb://template/eef992e895a94bbba67f6b89320d7d92",
+  "AllowedTemplates": [
+    "umb://template/eef992e895a94bbba67f6b89320d7d92"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-document-html",
+  "Thumbnail": "folder.png",
+  "Description": "this is a login page",
+  "Permissions": {
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/6a4bb37e319e45e0a99df17374308a6c",
+  "Dependencies": [
+    {
+      "Udi": "umb://template/eef992e895a94bbba67f6b89320d7d92",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "15.1.0"
+}
