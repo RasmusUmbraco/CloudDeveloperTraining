@@ -12,7 +12,6 @@
 }
 @foreach (var item in products)
 {
-    if (featuredItem != null && item.Id == featuredItem.Id) { featured = "featured"; };
     string firstSentence = "";
     if (item.Value("description").ToString().Length > 15)
     {
