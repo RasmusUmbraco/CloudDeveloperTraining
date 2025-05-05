@@ -24,7 +24,7 @@
         }
 
     </div>
-    @if(Context.User?.GetMemberIdentity()?.Name == null){
+    @if(Context.User?.GetMemberIdentity()?.Name == ""){
     <div>
         @await Html.PartialAsync("partials/register")
                     <br>
