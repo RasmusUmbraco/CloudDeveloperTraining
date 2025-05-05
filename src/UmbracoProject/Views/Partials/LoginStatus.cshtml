@@ -25,10 +25,13 @@
 
     </div>
     @if(Context.User?.GetMemberIdentity()?.Name == ""){
-    <div>
+    
+}else
+{
+<div>
         @await Html.PartialAsync("partials/register")
                     <br>
                     @await Html.PartialAsync("partials/login")
     </div>
-    }
+    
 }
