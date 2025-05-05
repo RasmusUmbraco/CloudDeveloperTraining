@@ -2,10 +2,16 @@
   "Name": "Login",
   "Alias": "Login",
   "File": "umb://template-file/Login.cshtml",
+  "Master": "umb://template/3c923e98edcf42839a870a51e497326f",
   "Udi": "umb://template/eef992e895a94bbba67f6b89320d7d92",
   "Dependencies": [
     {
       "Udi": "umb://template-file/Login.cshtml",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://template/3c923e98edcf42839a870a51e497326f",
       "Ordering": true,
       "Mode": "Exist"
     }
