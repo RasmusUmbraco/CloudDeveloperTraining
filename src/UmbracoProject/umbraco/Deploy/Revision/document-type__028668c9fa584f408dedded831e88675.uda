@@ -129,9 +129,9 @@
       "PropertyTypes": [
         {
           "Key": "9c0d7e22-06b1-42e4-8442-bb8b54eb8a7b",
-          "Alias": "testamonials",
+          "Alias": "testimonials",
           "DataType": "umb://data-type/1254a66b3a404e539299e5c3e0482811",
-          "Name": "Testamonials",
+          "Name": "Testimonials",
           "VariesByCulture": true
         }
       ]
