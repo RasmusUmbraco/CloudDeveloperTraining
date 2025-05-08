@@ -39,6 +39,13 @@
           "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
           "Name": "Body Text",
           "VariesByCulture": true
+        },
+        {
+          "Key": "59558acd-0589-4a38-a5a1-0236534987e3",
+          "Alias": "form",
+          "DataType": "umb://data-type/679aef17089b4c988a531b473186796b",
+          "Name": "Form",
+          "SortOrder": 1
         }
       ]
     }
@@ -46,6 +53,10 @@
   "PropertyTypes": [],
   "Udi": "umb://document-type/ff74556a73554a8b83cb42dd341a8ca7",
   "Dependencies": [
+    {
+      "Udi": "umb://data-type/679aef17089b4c988a531b473186796b",
+      "Ordering": true
+    },
     {
       "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
       "Ordering": true
