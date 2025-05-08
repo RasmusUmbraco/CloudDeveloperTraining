@@ -1,8 +1,12 @@
 ﻿@using Umbraco.Cms.Web.Common.PublishedModels;
 @inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<TextPage>
 @using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Extensions
+@using Umbraco.Forms.Web;
+@using Umbraco.Forms.Web.Extensions;   
 @{
-    Layout = "BasicNav.cshtml";
+    Layout = "basicNav.cshtml";
+                        
 }
 <section id="single-content" class="bg-white">
     <div class="container">
@@ -15,9 +19,15 @@
                 </div>
                 <div class="col-md-8 mt-4">
                     @Model.BodyText
+                    @if(Model.Value("form") != null){
+                    @await Component.InvokeAsync("RenderForm", new { formId = @Model.Value("form"),includeScripts = true })
+                    @Html.RenderUmbracoFormDependencies(Url)
+                    }
                 </div>
 
             </div>
         </div>
     </div>
 </section>
+
+
