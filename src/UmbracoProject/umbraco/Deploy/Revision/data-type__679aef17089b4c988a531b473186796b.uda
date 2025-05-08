@@ -1,0 +1,11 @@
+{
+  "Name": "Text Page - Form - Single Form Picker Property Editor",
+  "EditorAlias": "UmbracoForms.FormPicker",
+  "EditorUiAlias": "Forms.PropertyEditorUi.FormPicker.Single",
+  "DatabaseType": "Nvarchar",
+  "Configuration": {},
+  "Udi": "umb://data-type/679aef17089b4c988a531b473186796b",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "15.1.0"
+}
