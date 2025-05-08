@@ -1,0 +1,9 @@
+{
+  "Name": "umb://dictionary-item/1bc66ca3aed048388b27c5512eba6c86",
+  "ItemKey": "Languages",
+  "Translations": [],
+  "Udi": "umb://dictionary-item/1bc66ca3aed048388b27c5512eba6c86",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "15.1.0"
+}
