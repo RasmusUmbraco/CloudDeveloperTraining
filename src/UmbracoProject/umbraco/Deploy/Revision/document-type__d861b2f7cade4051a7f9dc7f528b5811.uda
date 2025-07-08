@@ -42,7 +42,7 @@
         {
           "Key": "f6c427f4-dd2a-4445-ab75-aaaab192b57f",
           "Alias": "featuredProduct",
-          "DataType": "umb://data-type/96c59437765547b3aaea565beb466b37",
+          "DataType": "umb://data-type/c7e4c04ae622440c92baef6b9b9246e6",
           "Description": "Select a product to be featured on top of the page.",
           "Name": "Featured product",
           "SortOrder": 1,
@@ -55,11 +55,11 @@
   "Udi": "umb://document-type/d861b2f7cade4051a7f9dc7f528b5811",
   "Dependencies": [
     {
-      "Udi": "umb://data-type/96c59437765547b3aaea565beb466b37",
+      "Udi": "umb://data-type/9ae7afb1c24c45a9b8fdf8bca4e4ef96",
       "Ordering": true
     },
     {
-      "Udi": "umb://data-type/9ae7afb1c24c45a9b8fdf8bca4e4ef96",
+      "Udi": "umb://data-type/c7e4c04ae622440c92baef6b9b9246e6",
       "Ordering": true
     },
     {
