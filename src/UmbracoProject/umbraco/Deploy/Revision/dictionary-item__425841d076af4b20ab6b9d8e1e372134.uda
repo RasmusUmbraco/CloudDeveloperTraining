@@ -4,17 +4,17 @@
   "Translations": [
     {
       "Key": "425841d0-76af-4b20-ab6b-9d8e1e372134",
-      "Value": "Udnyt Umbraco og MVC til at bygge brugerdefinerede funktioner",
+      "Value": "Udnyt Umbraco og MVC til at bygge brugerdefinerede funktioner.",
       "LanguageIsoCode": "da"
     },
     {
       "Key": "425841d0-76af-4b20-ab6b-9d8e1e372134",
-      "Value": "Leveraging the MVC nature of Umbraco to build custom features",
+      "Value": "Leveraging the MVC nature of Umbraco to build custom features.",
       "LanguageIsoCode": "en-US"
     },
     {
       "Key": "425841d0-76af-4b20-ab6b-9d8e1e372134",
-      "Value": "Aprovechar la naturaleza MVC de Umbraco para crear funciones personalizadas",
+      "Value": "Aprovechar la naturaleza MVC de Umbraco para crear funciones personalizadas.",
       "LanguageIsoCode": "es"
     }
   ],
