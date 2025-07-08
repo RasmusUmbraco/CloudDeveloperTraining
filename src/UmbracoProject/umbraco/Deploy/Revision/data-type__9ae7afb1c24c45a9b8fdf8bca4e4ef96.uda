@@ -6,7 +6,10 @@
   "Configuration": {
     "items": [
       "USD",
-      "EUR"
+      "YEN",
+      "GBP",
+      "EUR",
+      "DKK"
     ]
   },
   "Udi": "umb://data-type/9ae7afb1c24c45a9b8fdf8bca4e4ef96",
