@@ -4,7 +4,7 @@
   "EditorUiAlias": "Umb.PropertyEditorUi.ContentPicker",
   "Configuration": {
     "minNumber": 0,
-    "maxNumber": 0
+    "maxNumber": 6
   },
   "Udi": "umb://data-type/7e8520c3b258425ea115b3aa9edc6ae2",
   "Dependencies": [],
