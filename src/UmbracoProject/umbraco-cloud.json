@@ -1,22 +1,22 @@
 {
   "Deploy": {
     "Project": {
-      "Name": "Training-Baseline-v15",
-      "Alias": "training-baseline-v15",
+      "Name": "training-baseline-v16",
+      "Alias": "training-baseline-v16",
       "Id": "9034105c-b6f5-4a7d-b773-3bb531edead0",
-      "Url": "https://www.s1.umbraco.io/project/training-baseline-v15",
+      "Url": "https://www.s1.umbraco.io/project/training-baseline-v16",
       "Workspaces": [
         {
           "Id": "3fc8d916-b376-42f9-a1c9-f74ebd54d2cf",
           "Name": "Development",
           "Type": "development",
-          "Url": "https://dev-training-baseline-v15.euwest01.umbraco.io"
+          "Url": "https://dev-training-baseline-v16.euwest01.umbraco.io"
         },
         {
           "Id": "2f981925-3a5f-44d3-b8b3-419de6d82f88",
           "Name": "Live",
           "Type": "live",
-          "Url": "https://training-baseline-v15.euwest01.umbraco.io"
+          "Url": "https://training-baseline-v16.euwest01.umbraco.io"
         }
       ]
     },
