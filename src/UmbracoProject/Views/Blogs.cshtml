@@ -5,7 +5,7 @@
 @inject Umbraco.Cms.Web.Common.UmbracoHelper umbracoHelper
 @inject ITagQuery _tagQuery;
 @{
-    Layout = "BasicNav.cshtml";
+    Layout = "basicNav.cshtml";
     var blogs = Model.Children<Blog>()
     .OrderByDescending(x => x.PublishingDate);
     var allContentTags = _tagQuery.GetAllContentTags();
@@ -45,7 +45,7 @@
                                             }
                                             else
                                             {
-                                                <img src="https://via.placeholder.com/400x250" alt="">
+                                                <img src="https://placehold.co/400x250" alt="">
                                             }
                                         </a>
                                     </div>
