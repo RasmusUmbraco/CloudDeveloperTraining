@@ -18,10 +18,10 @@
                     </ul>
                 </div>
                 <div class="col-md-8 mt-4">
-                    @Model.BodyText
-                    @if(Model.Value("form") != null){
-                    @await Component.InvokeAsync("RenderForm", new { formId = @Model.Value("form"),includeScripts = true })
-                    @Html.RenderUmbracoFormDependencies(Url)
+                    @{
+                        if (Model.HasValue("bodyText")){
+                            <p>@(Model.Value("bodyText"))</p>
+                        }
                     }
                 </div>
 
