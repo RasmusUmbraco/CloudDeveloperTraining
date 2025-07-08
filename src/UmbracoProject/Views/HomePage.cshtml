@@ -4,7 +4,7 @@
 @using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
 @inject Umbraco.Cms.Web.Common.UmbracoHelper umbracoHelper
 @{
-    Layout = "Master.cshtml";
+    Layout = "master.cshtml";
     IPublishedContent root = Model.Root();
     IPublishedContent productsPage = root.Children<Products>().FirstOrDefault();
     string defaultCurrency = "";
@@ -75,7 +75,7 @@
                         <!-- Features Item -->
                         <div class="col-md-4 col-sm-12 text-center">
                             <div class="shadow rounded feature-item p-4 mb-4">
-                                <a href="https://umbraco.com/training/course-details/fundamentals-details/" target="_blank">
+                                <a href="https://umbraco.com/training/course-details/umbraco-fundamentals/" target="_blank">
                                     <div class="my-4">
                                         <i class="lnr lnr-laptop fs-40"></i>
                                     </div>
@@ -83,17 +83,68 @@
                                     <p>@umbracoHelper.GetDictionaryValue("DescFundamentals")</p>
                                 </a>
                             </div>
-
-
                         </div>
+                        <!-- Features Item -->
                         <div class="col-md-4 col-sm-12 text-center">
                             <div class="shadow rounded  feature-item p-4 mb-4">
-                                <a href="https://umbraco.com/training/course-details/mvc-and-visual-studio-details/" target="_blank">
+                                <a href="https://umbraco.com/training/course-details/extending-the-backoffice/" target="_blank">
+                                    <div class="my-4">
+                                        <i class="lnr lnr-exit-up fs-40"></i>
+                                    </div>
+                                    <h4>Extending the Backoffice</h4>
+                                    <p>@umbracoHelper.GetDictionaryValue("DescExtending")</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-12 text-center">
+                            <div class="shadow rounded  feature-item p-4 mb-4">
+                                <a href="https://umbraco.com/training/course-details/umbraco-and-mvc/" target="_blank">
                                     <div class="my-4">
                                         <i class="lnr lnr-cog fs-40"></i>
                                     </div>
                                     <h4>MVC</h4>
                                     <p>@umbracoHelper.GetDictionaryValue("DescMVC")</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-12 text-center">
+                            <div class="shadow rounded  feature-item p-4 mb-4">
+                                <a href="https://umbraco.com/training/course-details/application-integration/" target="_blank">
+                                    <div class="my-4">
+                                        <i class="lnr lnr-enter fs-40"></i>
+                                    </div>
+                                    <h4>Application Integration</h4>
+                                    <p>@umbracoHelper.GetDictionaryValue("DescAppInt")</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-12 text-center">
+                            <div class="shadow rounded  feature-item p-4 mb-4">
+                                <a href="https://umbraco.com/training/course-details/application-integration/" target="_blank">
+                                    <div class="my-4">
+                                        <i class="lnr lnr-lock fs-40"></i>
+                                    </div>
+                                    <h4>Security</h4>
+                                    <p>@umbracoHelper.GetDictionaryValue("DescSecurity")</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->                        
+                        <div class="col-md-4 col-sm-12 text-center">
+                            <div class="shadow rounded feature-item p-4 mb-4">
+                                <a href="https://umbraco.com/training/course-details/searching-and-indexing/" target="_blank">
+                                    <div class="my-4">
+                                        <i class="lnr lnr-map fs-40"></i>
+                                    </div>
+                                    <h4>Searching and Indexing</h4>
+                                    <p>@umbracoHelper.GetDictionaryValue("DescSearch")</p>
                                 </a>
                             </div>
                         </div>
@@ -110,7 +161,7 @@
                                     <p>@umbracoHelper.GetDictionaryValue("DescCloudDev")</p>
                                 </a>
                             </div>
-
+                        <!-- Features Item -->
                         </div>
                         <div class="col-md-4 col-sm-12 text-center">
                             <div class="shadow rounded  feature-item p-4 mb-4">
@@ -123,33 +174,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!-- End of Feature Item -->
-                        <!-- Features Item -->
-                        <div class="col-md-4 col-sm-12 text-center">
-                            <div class="shadow rounded  feature-item p-4 mb-4">
-                                <a href="https://umbraco.com/training/course-details/extending-the-backoffice-details/" target="_blank">
-                                    <div class="my-4">
-                                        <i class="lnr lnr-exit-up fs-40"></i>
-                                    </div>
-
-                                    <h4>Extending the Backoffice</h4>
-                                    <p>@umbracoHelper.GetDictionaryValue("DescExtending")</p>
-                                </a>
-                            </div>
-
-                        </div>
-                        <div class="col-md-4 col-sm-12 text-center">
-                            <div class="shadow rounded feature-item p-4 mb-4">
-                                <a href="https://umbraco.com/training/course-details/searching-and-indexing/" target="_blank">
-                                    <div class="my-4">
-                                        <i class="lnr lnr-map fs-40"></i>
-                                    </div>
-                                    <h4>Searching and Indexing</h4>
-                                    <p>@umbracoHelper.GetDictionaryValue("DescSearch")</p>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- End of Feature Item -->
+                        <!-- End of Feature Item -->                        
                     </div>
                 </div>
                 <!-- End of Features Holder-->
@@ -277,7 +302,7 @@
                             <img class="img-responsive" src="@imgLogo.Url()" alt=" ">
                             }
                             else{
-                            <img class="img-responsive" src="https://umbraco.com/media/kloklj32/umbraco_logo_white_05_preview.png?quality=80" alt=" ">
+                            <img class="img-responsive" src="https://placehold.co/200x200" alt=" ">
                             }
                         </div>
                        }
