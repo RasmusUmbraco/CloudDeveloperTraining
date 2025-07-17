@@ -17,31 +17,10 @@
     "umb://document-type/1e49f665578a45418762ea2a69f90dcc",
     "umb://document-type/bb2974c6a60140259da817bb459099ca"
   ],
-  "PropertyGroups": [
-    {
-      "Key": "4a478561-5e17-48e5-a19a-5305effee93e",
-      "Name": "Settings",
-      "SortOrder": 10,
-      "Type": 1,
-      "Alias": "settings",
-      "PropertyTypes": [
-        {
-          "Key": "15d6e7f0-2c73-4cdc-a08d-71f1e5e2e6f9",
-          "Alias": "umbracoNaviHide",
-          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
-          "Description": "Hide from navigation, as we have an icon anyway.",
-          "Name": "UmbracoNaviHide"
-        }
-      ]
-    }
-  ],
+  "PropertyGroups": [],
   "PropertyTypes": [],
   "Udi": "umb://document-type/29e5e38e4bac4a54bfe9bc5fe44b2169",
   "Dependencies": [
-    {
-      "Udi": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
-      "Ordering": true
-    },
     {
       "Udi": "umb://document-type/1e49f665578a45418762ea2a69f90dcc",
       "Ordering": true
