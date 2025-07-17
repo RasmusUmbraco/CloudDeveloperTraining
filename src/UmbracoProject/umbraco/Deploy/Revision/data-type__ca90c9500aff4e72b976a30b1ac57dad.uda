@@ -56,6 +56,9 @@
     "blocks": [
       {
         "contentElementTypeKey": "61c71987-31b5-4fac-bb3a-8b4b9b4e11e2"
+      },
+      {
+        "contentElementTypeKey": "e06c8101-9d59-476c-9d90-adbae279eb18"
       }
     ]
   },
@@ -63,6 +66,9 @@
   "Dependencies": [
     {
       "Udi": "umb://document-type/61c7198731b54facbb3a8b4b9b4e11e2"
+    },
+    {
+      "Udi": "umb://document-type/e06c81019d59476c9d90adbae279eb18"
     }
   ],
   "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
