@@ -123,6 +123,15 @@
             background: -webkit-linear-gradient(to right, @colorGradient1, @colorGradient2);
             background: linear-gradient(to right, @colorGradient1, @colorGradient2);
         }
+
+        .nav-link {
+            transition: font-weight 0.2s;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body data-spy="scroll" data-target="#navbar" class="static-layout">
@@ -140,9 +149,11 @@
                 <ul class="navbar-nav ml-auto">
                     @foreach (var item in root.Children().Where(x => x.IsVisible()))
                     {
+                        var isActive = item.Id == Model.Id || Model.Ancestors().Any(x => x.Id == item.Id) ? "active" : "";
                         <li class="nav-item">
-
-                            <a class="nav-link" href="@item.Url(Model.GetCultureFromDomains())">@item.Name</a>
+                            <a class="nav-link @isActive" href="@item.Url(Model.GetCultureFromDomains())">
+                                @item.Name
+                            </a>
                         </li>
                     }
 
@@ -151,25 +162,20 @@
                             <span class="lnr lnr-magnifier"></span>
                         </a>
                     </li>
-                    <li class="nav-item lang-dropdown clickable" id="langDropdownParent">
 
+                    <li class="nav-item lang-dropdown clickable" id="langDropdownParent">
                         <span class="nav-link">
                             @umbracoHelper.GetDictionaryValue($"{Model.GetCultureFromDomains()}") &#9662;
                         </span>
-
                         <div class="lang-dropdown-content" style="visibility:hidden" id="langDropdown">
                             @foreach (var (culture, infos) in root.Cultures)
                             {
                                 var url = Model.Url(culture);
-                                if (url == "#")
-                                {
-                                    url = Model.Root().Url(culture);
-                                }
+                                if (url == "#") { url = Model.Root().Url(culture); }
                                 <a class="nav-link" href="@url">@umbracoHelper.GetDictionaryValue($"{culture}")</a>
                             }
                         </div>
                     </li>
-                    
                 </ul>
             </div>
         </div>
