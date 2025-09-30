@@ -4,17 +4,17 @@
   "Translations": [
     {
       "Key": "a0954d5f-0b9d-4802-ac7b-62fdfc49095d",
-      "Value": "Hvad bliver det i dag?",
+      "Value": "Hvad vil du l\u00E6re i dag?",
       "LanguageIsoCode": "da"
     },
     {
       "Key": "a0954d5f-0b9d-4802-ac7b-62fdfc49095d",
-      "Value": "What will it be today?",
+      "Value": "What would you like to learn today?",
       "LanguageIsoCode": "en-US"
     },
     {
       "Key": "a0954d5f-0b9d-4802-ac7b-62fdfc49095d",
-      "Value": "\u00BFQu\u00E9 ser\u00E1 hoy?",
+      "Value": "\u00BFQu\u00E9 te gustar\u00EDa aprender hoy?",
       "LanguageIsoCode": "es"
     }
   ],
@@ -37,5 +37,5 @@
     }
   ],
   "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
-  "__version": "16.0.1"
+  "__version": "16.0.2"
 }
