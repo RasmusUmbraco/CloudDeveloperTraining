@@ -1,0 +1,7 @@
+{
+  "Name": "VIP",
+  "Udi": "umb://member-group/0c45fe0b62864d49835822fe2883fede",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.MemberGroupArtifact",
+  "__version": "16.0.2"
+}
