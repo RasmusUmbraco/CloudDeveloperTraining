@@ -1,22 +1,16 @@
 {
   "Deploy": {
     "Project": {
-      "Name": "Umbraco-Training-Baseline",
-      "Alias": "umbraco-training-baseline",
-      "Id": "9034105c-b6f5-4a7d-b773-3bb531edead0",
+      "Name": "content management test3009",
+      "Alias": "content-management-test3009",
+      "Id": "8afcb49f-2c44-4405-9d59-bf679ce8a8a4",
       "Url": "https://www.s1.umbraco.io/project/umbraco-training-baseline",
       "Workspaces": [
         {
-          "Id": "3fc8d916-b376-42f9-a1c9-f74ebd54d2cf",
-          "Name": "Development",
-          "Type": "development",
-          "Url": "https://dev-umbraco-training-baseline.euwest01.umbraco.io"
-        },
-        {
-          "Id": "2f981925-3a5f-44d3-b8b3-419de6d82f88",
+          "Id": "98228958-0f5b-41dd-b5dd-c255c0063bd9",
           "Name": "Live",
           "Type": "live",
-          "Url": "https://umbraco-training-baseline.euwest01.umbraco.io"
+          "Url": "https://content-management-test3009.euwest01.umbraco.io"
         }
       ]
     },
