@@ -27,7 +27,7 @@
   "Identity": {
     "ClientId": "0297c0f6-83ad-4481-9ae2-07a3f5475333",
     "ClientSecret": "Q5~T526ixOHlj47lg7Mu7_.zN1fK.7ua.9",
-    "EnvironmentId": "2f981925-3a5f-44d3-b8b3-419de6d82f88",
+    "EnvironmentId": "98228958-0f5b-41dd-b5dd-c255c0063bd9",
     "LocalLoginRedirectUri": "https://redirect.identity.umbraco.com"
   }
 }
