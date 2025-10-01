@@ -1,5 +1,5 @@
 {
-  "Name": "Testing CICD",
+  "Name": "Testing the CICD",
   "Alias": "testingCicd",
   "AllowedTemplates": [],
   "HistoryCleanup": {},
