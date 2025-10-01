@@ -5,5 +5,5 @@
   "Udi": "umb://language/da",
   "Dependencies": [],
   "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.LanguageArtifact",
-  "__version": "16.0.1"
+  "__version": "16.0.2"
 }
