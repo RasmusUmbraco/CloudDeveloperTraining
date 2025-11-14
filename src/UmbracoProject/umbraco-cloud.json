@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "cloud developer cicd",
+      "Alias": "cloud-developer-cicd",
+      "Id": "e210fccb-6aa3-4533-bc62-1db9fa4f2938",
+      "Workspaces": [
+        {
+          "Id": "a0c773f9-5e0b-4772-b847-fbd015f761e2",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://cloud-developer-cicd.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
